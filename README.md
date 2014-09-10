@@ -1,4 +1,4 @@
 dot-files
 =========
 
-Config files because the defaults suck. 
+Config files because the defaults are bad. 
