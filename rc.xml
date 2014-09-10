@@ -983,16 +983,9 @@
 	<application name="skype">
 	  <decor>no</decor>
 	  <maximized>yes</maximized></application>
-	<application name="iceweasel">
-	  <decor>no</decor>
-	  <maximized>yes</maximized></application>
-	<application name="mplayer">
-	  <decor>no</decor>
-	  <maximized>yes</maximized></application>
 	<application name="thunar">
 	  <decor>no</decor>
 	  <maximized>yes</maximized></application>
-<application name="Mathematica"><decor>no</decor><maximized>yes</maximized></application>
 <application/>
 </applications>
 </openbox_config>
