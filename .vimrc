@@ -14,7 +14,7 @@ set t_Co=256
 
 colorscheme peachpuff
 
-set term=$TERM      " Make arrow and other keys work
+set term=$TERM      " Make arrow keys and mouse work
 
 highlight clear LineNr
 
