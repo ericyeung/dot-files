@@ -19,8 +19,6 @@ set term=$TERM      " Make arrow and other keys work
 highlight clear LineNr
 
 " basic settings
-"set tabstop=4
-"set shiftwidth=4 "expandtab
 set nowrap
 set noswapfile
 set backspace=indent,eol,start
