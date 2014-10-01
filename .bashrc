@@ -132,23 +132,32 @@ function pipupdate() {
 	sudo python ~/kawaii/bash_scripts/pipall.py
 }
 
-# cd and ls combined function (fix this eventually please)
+# cd and ls combined function (fixed!)
 function cs() {
 cd "$1" && ls
 }
 
-# laziness $1 is the streamer, $2 is the quality, $1 is first input, etc...
-function live () {
+# LAZINESS
+# $1 is the streamer, $2 is the quality, $1 is first input, etc...
+function twitch () {
 	livestreamer twitch.tv/$1 $2
+}
+
+function azubu (){
+	livestreamer http://www.azubu.tv/$1 720p # always high quality!
+}
+
+function utube (){
+	livestreamer https://www.youtube.com/watch?v=$1 # input is video id
 }
 
 # ...other stuff...
 
 if [[ ! $TERM =~ screen ]]; then
-    exec tmux
+    exec tmux       # use tmux instead of screen
 fi
 
-export TERM=screen-256color
+export TERM=screen-256color # use all 256
 
-eval "`dircolors -b ~/.dircolorsrc`"
+eval "`dircolors -b ~/.dircolorsrc`" #change ls colours
 export LS_OPTIONS='--color=auto'
