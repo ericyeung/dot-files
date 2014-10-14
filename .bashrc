@@ -117,6 +117,7 @@ alias irssi='TERM=screen-256color irssi'
 alias weechat='weechat-curses'
 alias apt-get="sudo apt-get"
 alias RAIN="cd & cd Kawaii && cd bash_scripts && bash rain.sh && cd"
+alias arpscan="sudo arp-scan --interface=wlan1 --localnet"
 
 function lime() {
 	sublime_text $1 &
