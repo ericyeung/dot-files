@@ -118,6 +118,7 @@ alias weechat='weechat-curses'
 alias apt-get="sudo apt-get"
 alias RAIN="cd & cd Kawaii && cd bash_scripts && bash rain.sh && cd"
 alias arpscan="sudo arp-scan --interface=wlan1 --localnet"
+alias julia="cd && cd julia && export PATH="$(pwd):$PATH" && julia"
 
 function lime() {
 	sublime_text $1 &
