@@ -134,6 +134,11 @@ function pipupdate() {
 	sudo python ~/kawaii/bash_scripts/pipall.py
 }
 
+# easy mounting 
+function mnt() {
+	sudo mount /dev/sd$1 /media/usb # where the input is b1, c1, or d1, etc...
+}
+
 # cd and ls combined function (fixed!)
 function cs() {
 cd "$1" && ls
